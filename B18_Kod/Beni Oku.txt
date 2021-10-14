@@ -1,0 +1,9 @@
+Klasör içerisinde 2 adet juptter notebook dosyasý görmektesiniz.
+
+Bu dosyalardan 'B18_kod_v2' adlý dosyayý açýp çalýþtýrdýðýnýzda python kodunun 2 hücre bloðundan oluþtuðunu göreceksiniz. 
+
+Birinci hücre projede örnek ses olarak kullanacaðýmýz 'kýrmýzý balýk gölde' þarkýsýnýn oluþturulmasý ve jupyter dosyasýnýn bulunduðu klasöre kaydedilmesine yöneliktir.Bu hücreyi çalýþtýrdýktan sonra ses dosyasýnýn istenilen isimde(kýrmýzý_balýk.wav)klasör içine kaydolduðunu göreceksiniz.
+
+Ýkinci hücrede ise birinci hücrede oluþturup kaydettiðimiz ses dosyasýnýn konumunu ve ismini wavfile.read() fonksiyonu içerisine yazarak notalarýn tespit edilmesi kýsmýna geçebilirsiniz. Ýkinci kýsýmda verilen nota çýktýlarýný birinci hücrede tanýmlanmýþ nota deðerleriyle karþýlaþtýrabilir, dilerseniz bu nota deðerlerini deðiþtirip ayný iþlemleri tekrarlayarak nota tespiti kýsmýnda çýktýlarýn deðiþtiðini gözlemleyebilirsiniz. Burada dikkat edilmesi gereken nokta frekanslarý deðiþtirilmiþ olan ses dosyasýný farklý bi dosya ismiyle kaydetmektir. Bunun için wavio.write() fonksiyonu içindeki kaydedilecek dosyanýn adýný deðiþtirmelisiniz.
+
+Bizden istediklerinize ek olarak bir de 'Basit_notalar' adlý jupyter notebook dosyasýnda örnek bir ses dosyasý oluþturduk. Yine bu jupyter dosyasýnýn tamamýný çalýþtýrdýðýnýzda 'notalar.wav' ses dosyasýnýn oluþtuðunu göreceksiniz. Dilerseniz bu ses dosyasýný 'B18_kod_v2' jupyter dosyasýnýn 2.hüresinde wavfile.read() fonksiyonu içinde çaðýrabilir ve nota tespitinin doðru þekilde yapýldýðýný gözlemleyebilirsiniz. 
